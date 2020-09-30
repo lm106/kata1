@@ -5,6 +5,7 @@ import java.time.LocalDate;
 public class Person {
     private final String name;
     private final LocalDate birthday;
+    private final String na;
 
     public Person(String name, LocalDate birthday) {
         this.name = name;
@@ -25,4 +26,5 @@ public class Person {
     private int toYear(long days) {
         return (int) (days/365);
     }
+    
 }
