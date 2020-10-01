@@ -10,6 +10,7 @@ public class Person {
     public Person(String name, LocalDate birthday) {
         this.name = name;
         this.birthday = birthday;
+        na ="";
     }
 
     public String getName() {
